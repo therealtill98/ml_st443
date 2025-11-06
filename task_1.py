@@ -673,6 +673,7 @@ summary_df = pd.DataFrame(results)
 summary_df.sort_values(by=["Variant", "Avg Balanced Acc", "Accuracy"], ascending=[True, False, False], inplace=True)
 summary_path = "results/summary_all_models.csv"
 summary_df.to_csv(summary_path, index=False)
+# summary_df = pd.read_csv(summary_path)  # reload to ensure clean formatting
 print(f"[RESULTS] Wrote full summary table to {summary_path}")
 print(summary_df.to_string(index=False, float_format=lambda x: f"{x:.5f}"))
 
