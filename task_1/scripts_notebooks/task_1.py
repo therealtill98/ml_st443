@@ -88,7 +88,7 @@ data_path = os.path.join(downloads_path, "data-1.csv")
 df = pd.read_csv(data_path, low_memory=False)
 
 # Save df locally for easy reuse in case of path issues later.
-df.to_csv("data-1_local_copy.csv", index=False)
+#df.to_csv("data-1_local_copy.csv", index=False)
 
 # Print basic info to confirm shape and memory footprint right away.
 print(f"Loaded data from: {data_path}")
@@ -399,7 +399,7 @@ plt.ylabel("Trace of covariance")
 plt.xticks(rotation=45, ha="right")
 plt.tight_layout()
 plt.savefig("figures/covariance_trace_by_class.png", dpi=150)
-plt.show()
+plt.close()
 
 # Interpretation:
 # - Distinct covariance traces across classes confirm LDA’s
@@ -682,14 +682,14 @@ best_row = summary_df.loc[
     (summary_df["Model"] == "Logistic Regression") & 
     (summary_df["Variant"] == "pca10")
 ]
-BEST_MODEL_NAME = f"{best_row['Model']} ({best_row['Variant']})"
+BEST_MODEL_NAME = f"{best_row['Model'].iloc[0]} ({best_row['Variant'].iloc[0]})"
 print(f"[RESULTS] Best by Avg Balanced Acc: {BEST_MODEL_NAME}")
 
 # Save the best trained model and its preprocessing so mypredict() can reuse it.
 # We choose between raw vs pca10 based on best_row, then save the right objects.
 def _save_best_model_and_preproc():
-    variant = best_row["Variant"]
-    model_name = best_row["Model"]
+    variant = best_row["Variant"].iloc[0]
+    model_name = best_row["Model"].iloc[0]
 
     # Map the name+variant to the trained objects in memory.
     # We also need to define how to preprocess incoming data in mypredict().
