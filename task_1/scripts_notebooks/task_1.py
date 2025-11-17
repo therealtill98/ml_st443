@@ -810,7 +810,7 @@ print("[T1.4] Wrote binary glacier results to results/t14_glacier_binary_results
 
 def mypredict():
     """
-    As instruction in Section 3.2 Code (Submission and Assessment): Read 'test.csv.gz' 
+    As instruction in Section 3.2 Code (Submission and Assessment): Reads 'test.csv.gz' 
     from the working directory (same format as the training data but without labels), 
     and output the predicted class labels to a plain text file, one label per line, 
     in the same order.
