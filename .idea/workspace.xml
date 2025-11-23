@@ -5,8 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="587a45c2-90d3-4260-bbbb-9fd64be46818" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/task1_modeling.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_LDA_pca10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_LDA_pca10.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_LDA_raw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_LDA_raw.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_Logistic_Regression_pca10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_Logistic_Regression_pca10.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_Logistic_Regression_raw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_Logistic_Regression_raw.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_QDA_pca10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_QDA_pca10.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_QDA_raw.csv" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/confusion_matrices/confmat_QDA_raw.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/results/all_results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/results/all_results.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/task1_eda.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/task1_eda.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/task1_modeling.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/task1_modeling.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/task_1/scripts_notebooks/task_1_vFinal.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/task_1/scripts_notebooks/task_1_vFinal.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
